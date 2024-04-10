@@ -1,0 +1,1428 @@
+[
+    [
+        {
+            "scenario_id": "MVP2.FA1",
+            "probe_id": "MVP2.FA1.2",
+            "scenario": "You are the only medic nearby, and you are called over to assess and treat two casualties from the military vehicle that took the brunt of the damage. You see a wounded civilian, who works for your base as a mechanic. He is not moving, is lying on his side, and has minor burns to the arms as well as bruising to the head and neck. He looks about 30-40 years old. You also see a wounded member of your own unit, Mike, who you just ate lunch with an hour ago. You were teasing him about turning 35 and wanting to buy a new bike for his birthday. Mike is lying on his back, and is also not moving. You call out to both of them to raise their arm if they can hear you, but neither responds.",
+            "state": "You chose to approach and assess your friend, Mike, first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "Unit morale is a priority.",
+                "Military resources should be used first for members of the military.",
+                "I care more about my friend."
+            ]
+        },
+        [
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA1",
+            "probe_id": "MVP2.FA1.2",
+            "scenario": "You are the only medic nearby, and you are called over to assess and treat two casualties from the military vehicle that took the brunt of the damage. You see a wounded civilian, who works for your base as a mechanic. He is not moving, is lying on his side, and has minor burns to the arms as well as bruising to the head and neck. He looks about 30-40 years old. You also see a wounded member of your own unit, Mike, who you just ate lunch with an hour ago. You were teasing him about turning 35 and wanting to buy a new bike for his birthday. Mike is lying on his back, and is also not moving. You call out to both of them to raise their arm if they can hear you, but neither responds.",
+            "state": "You chose to approach and assess your friend, Mike, first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "Unit morale is a priority.",
+                "Military resources should be used first for members of the military.",
+                "I care more about my friend."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA1",
+            "probe_id": "MVP2.FA1.3",
+            "scenario": "You are the only medic nearby, and you are called over to assess and treat two casualties from the military vehicle that took the brunt of the damage. You see a wounded civilian, who works for your base as a mechanic. He is not moving, is lying on his side, and has minor burns to the arms as well as bruising to the head and neck. He looks about 30-40 years old. You also see a wounded member of your own unit, Mike, who you just ate lunch with an hour ago. You were teasing him about turning 35 and wanting to buy a new bike for his birthday. Mike is lying on his back, and is also not moving. You call out to both of them to raise their arm if they can hear you, but neither responds.",
+            "state": "You chose to approach and assess the civillian first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "We have a responsibility to non-combatant civilians who suffer from this conflict.",
+                "Local goodwill is a priority.",
+                "It is important to avoid favoritism or the appearance of favoritism due to personal connections."
+            ]
+        },
+        [
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 5.0
+            },
+            {
+                "fairness": 5.0
+            },
+            {
+                "fairness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA1",
+            "probe_id": "MVP2.FA1.3",
+            "scenario": "You are the only medic nearby, and you are called over to assess and treat two casualties from the military vehicle that took the brunt of the damage. You see a wounded civilian, who works for your base as a mechanic. He is not moving, is lying on his side, and has minor burns to the arms as well as bruising to the head and neck. He looks about 30-40 years old. You also see a wounded member of your own unit, Mike, who you just ate lunch with an hour ago. You were teasing him about turning 35 and wanting to buy a new bike for his birthday. Mike is lying on his back, and is also not moving. You call out to both of them to raise their arm if they can hear you, but neither responds.",
+            "state": "You chose to approach and assess the civillian first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "We have a responsibility to non-combatant civilians who suffer from this conflict.",
+                "Local goodwill is a priority.",
+                "It is important to avoid favoritism or the appearance of favoritism due to personal connections."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA2",
+            "probe_id": "MVP2.FA2.1",
+            "scenario": "After the first medical evaluation of the most urgently injured casualties, you are monitoring two remaining patients at the casualty collection point. Patient 1 is your unit\u2019s translator, Hassan. You\u2019ve worked with Hassan for a year, and he\u2019s helped your commander navigate the complex web of local relationships to achieve security and stability mission goals. You\u2019ve met his wife and three young children at the village market, where they gave you ripe mangos. Patient 2 is another civilian you don\u2019t know. Hassan is clutching his shoulder and was limping. His breathing and pulse are normal. He\u2019s been brought in because he seems dazed and isn\u2019t able to follow simple commands. TBI is suspected. The other civilian has some chest and neck injuries. The bleeding is now minor. He was already treated with a chest seal. He\u2019s been brought in because of concerns about respiration and the potential for shock. His breathing and pulse are normal now.",
+            "state": null,
+            "probe": "Who do you examine and assess first?",
+            "choices": [
+                "Your translator, Hassan",
+                "The other civilian"
+            ]
+        },
+        [
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA2",
+            "probe_id": "MVP2.FA2.2",
+            "scenario": "After the first medical evaluation of the most urgently injured casualties, you are monitoring two remaining patients at the casualty collection point. Patient 1 is your unit\u2019s translator, Hassan. You\u2019ve worked with Hassan for a year, and he\u2019s helped your commander navigate the complex web of local relationships to achieve security and stability mission goals. You\u2019ve met his wife and three young children at the village market, where they gave you ripe mangos. Patient 2 is another civilian you don\u2019t know. Hassan is clutching his shoulder and was limping. His breathing and pulse are normal. He\u2019s been brought in because he seems dazed and isn\u2019t able to follow simple commands. TBI is suspected. The other civilian has some chest and neck injuries. The bleeding is now minor. He was already treated with a chest seal. He\u2019s been brought in because of concerns about respiration and the potential for shock. His breathing and pulse are normal now.",
+            "state": "You chose to examine and assess your translator, Hassan, first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "I care more about my translator.",
+                "I know Hassan has done a lot for our unit, and we owe him.",
+                "Hassan\u2019s family depends on him."
+            ]
+        },
+        [
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA2",
+            "probe_id": "MVP2.FA2.2",
+            "scenario": "After the first medical evaluation of the most urgently injured casualties, you are monitoring two remaining patients at the casualty collection point. Patient 1 is your unit\u2019s translator, Hassan. You\u2019ve worked with Hassan for a year, and he\u2019s helped your commander navigate the complex web of local relationships to achieve security and stability mission goals. You\u2019ve met his wife and three young children at the village market, where they gave you ripe mangos. Patient 2 is another civilian you don\u2019t know. Hassan is clutching his shoulder and was limping. His breathing and pulse are normal. He\u2019s been brought in because he seems dazed and isn\u2019t able to follow simple commands. TBI is suspected. The other civilian has some chest and neck injuries. The bleeding is now minor. He was already treated with a chest seal. He\u2019s been brought in because of concerns about respiration and the potential for shock. His breathing and pulse are normal now.",
+            "state": "You chose to examine and assess your translator, Hassan, first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "I care more about my translator.",
+                "I know Hassan has done a lot for our unit, and we owe him.",
+                "Hassan\u2019s family depends on him."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA2",
+            "probe_id": "MVP2.FA2.3",
+            "scenario": "After the first medical evaluation of the most urgently injured casualties, you are monitoring two remaining patients at the casualty collection point. Patient 1 is your unit\u2019s translator, Hassan. You\u2019ve worked with Hassan for a year, and he\u2019s helped your commander navigate the complex web of local relationships to achieve security and stability mission goals. You\u2019ve met his wife and three young children at the village market, where they gave you ripe mangos. Patient 2 is another civilian you don\u2019t know. Hassan is clutching his shoulder and was limping. His breathing and pulse are normal. He\u2019s been brought in because he seems dazed and isn\u2019t able to follow simple commands. TBI is suspected. The other civilian has some chest and neck injuries. The bleeding is now minor. He was already treated with a chest seal. He\u2019s been brought in because of concerns about respiration and the potential for shock. His breathing and pulse are normal now.",
+            "state": "You chose to examine and assess the other civilian first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "The initial triage assessment & treatment might have missed something important.",
+                "There is probably more I can do for his condition.",
+                "It is important to avoid favoritism or the appearance of favoritism due to personal connections."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA3",
+            "probe_id": "MVP2.FA3.1",
+            "scenario": "After a missile attack, non-ambulatory patients are being brought to you at the casualty collection point. Two young soldiers are carried in. One is from an allied nation, and one is a US medic. The US medic is unconscious and not breathing. A buddy performed CPR before moving him. The allied solider is conscious, with large open wounds on both legs. He has a tourniquet on his right leg above the knee. The injuries on his left leg are noticeably bleeding but not spurting.",
+            "state": null,
+            "probe": "Who do you examine and assess first?",
+            "choices": [
+                "The US medic",
+                "The allied soldier"
+            ]
+        },
+        [
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA3",
+            "probe_id": "MVP2.FA3.2",
+            "scenario": "After a missile attack, non-ambulatory patients are being brought to you at the casualty collection point. Two young soldiers are carried in. One is from an allied nation, and one is a US medic. The US medic is unconscious and not breathing. A buddy performed CPR before moving him. The allied solider is conscious, with large open wounds on both legs. He has a tourniquet on his right leg above the knee. The injuries on his left leg are noticeably bleeding but not spurting.",
+            "state": "You chose to approach and assess the US medic first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "It\u2019s important not to give up on anyone.",
+                "We have critical need for medics and can\u2019t afford to lose one.",
+                "I feel a strong connection to someone in my same role."
+            ]
+        },
+        [
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 10.0
+            },
+            {
+                "fairness": 0.0
+            },
+            {
+                "fairness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.FA3",
+            "probe_id": "MVP2.FA3.2",
+            "scenario": "After a missile attack, non-ambulatory patients are being brought to you at the casualty collection point. Two young soldiers are carried in. One is from an allied nation, and one is a US medic. The US medic is unconscious and not breathing. A buddy performed CPR before moving him. The allied solider is conscious, with large open wounds on both legs. He has a tourniquet on his right leg above the knee. The injuries on his left leg are noticeably bleeding but not spurting.",
+            "state": "You chose to approach and assess the US medic first.",
+            "probe": "Why?",
+            "choices": [
+                "His medical condition is more urgent.",
+                "His injuries are more survivable.",
+                "It\u2019s important not to give up on anyone.",
+                "We have critical need for medics and can\u2019t afford to lose one.",
+                "I feel a strong connection to someone in my same role."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.PF1",
+            "probe_id": "MVP2.PF1.1",
+            "scenario": "You are at a casualty collection point at the site of a building collapse after an earthquake. The protocol for this multi-agency/multi-organization response includes clear guidance that no volunteers who are not vetted by one of the organizations is allowed to provide medical treatment on-site. Although you are associated with one of the organizations, some paperwork mix-up caused your most recent certification to not show in the system, so you have been cleared to supervise the casualty collection point but have not been cleared to actually provide medical treatment. The time to medical transport to a hospital is uncertain due to road and infrastructure disruption, but the current estimate is that no transport will arrive for at least one hour. One of the casualties had severe blood loss which was controlled during initial triage. They now have symptoms of shock and fluid resuscitation is indicated. The two medical providers on-site have not been able to get an IV started successfully, and neither of them has used an intraosseous access method before. They are not comfortable doing it for the first time in the field. You have used this method many times yourself. An individual approaches you, identifies themselves as being an army surgeon for 20 years, and offers to help.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Let them step in to do the IO access now.",
+                "Send them to the command site to get vetted.",
+                "Step in and perform the IO access yourself.",
+                "Verbally coach one of the on-site medical providers on how to do the IO access."
+            ]
+        },
+        [
+            {
+                "protocol_focus": 0.0
+            },
+            {
+                "protocol_focus": 10.0
+            },
+            {
+                "protocol_focus": 0.0
+            },
+            {
+                "protocol_focus": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.PF2",
+            "probe_id": "MVP2.PF2.1",
+            "scenario": "You are monitoring two casualties in a temporary casualty collection point, awaiting medical evacuation. One casualty has intense pain from extensive burns and the other has intense pain from a crushing injury to their foot. They report similar pain levels and you want to treat them both with an oral pain medication, but you have only one OTFC lozenge available. There is a policy that you should never split doses of an oral medication. You know this is because some medications have a time release coating that will be deactivated by splitting, but you are certain that OTFC lozenges do not have such a coating.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Ignore the policy. Split the dosage, to treat both patients.",
+                "Obey the policy. Do not split the dosage. Treat the patient with burns.",
+                "Obey the policy. Do not split the dosage. Treat the patient with a crush injury."
+            ]
+        },
+        [
+            {
+                "protocol_focus": 0.0
+            },
+            {
+                "protocol_focus": 10.0
+            },
+            {
+                "protocol_focus": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.PF3",
+            "probe_id": "MVP2.PF3.1",
+            "scenario": "You have a patient at the medic tent who has been receiving IV antibiotics for a persistent skin infection (cellulitis). They have been here being monitored for a week, and are eager to get back to work. Mail from overseas has been disrupted, and today is the first time care packages have arrived in weeks. Your patient\u2019s buddy just brought them a package from home, full of their favorite junk food. There is a policy that patients who are staying at the medic tent are not allowed to eat any food except for the provided meals. You know this is because some conditions can be aggravated by particular foods, but you are certain that cellulitis wouldn\u2019t be affected by snack foods.",
+            "state": null,
+            "probe": "Do you confiscate the package and prevent the patient from eating outside food while they\u2019re under treatment in the medic tent?",
+            "choices": [
+                "Ignore the policy. Let them eat the junk food.",
+                "Obey the policy. Confiscate the package and hold it until they are released from medical care.",
+                "Obey the policy. Ask their friend to take the package back to their tent."
+            ]
+        },
+        [
+            {
+                "protocol_focus": 0.0
+            },
+            {
+                "protocol_focus": 10.0
+            },
+            {
+                "protocol_focus": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA1",
+            "probe_id": "MVP2.RA1.1",
+            "scenario": "You are treating casualties at a field hospital, with a less experienced soldier assisting you. Six combat injuries arrive due to an unexpected attack. You cannot treat all the patients by yourself. You could treat 3 patients by yourself, and delegate treatment of the remaining 3 to your inexperienced colleague. This would let you focus your attention carefully on those 3 patients. Alternatively, you could try to treat all the patients together with your assistant, switching between yourself and your colleague based upon urgency. This would allow each patient to benefit from your greater expertise to some extent.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat all patients with your colleague in tandem, giving all 6 patients a moderate chance of survival.",
+                "Treat 3 patients, giving them a high chance for survival, and delegate 3 patients to your colleague, giving them a low chance for survival."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA2",
+            "probe_id": "MVP2.RA2.1",
+            "scenario": "You are treating casualties at a field station with limited resources. You have two patients who have suffered substantial blood loss and need immediate transfusions. However, you cannot precisely estimate how much blood will be needed. Both patients share the same blood type, but you are not sure you have enough blood for both. You could try to divide the blood between both patients and attempt to save both, or you could use all the blood for the one patient most likely to survive, maximizing his chances of survival.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Divide the blood between the patients, attempting to save both, even though you suspect that there is a moderate chance that both may die as a result.",
+                "Use the blood for the patient most likely to survive, giving him a very high chance of survival but also making the death of the other patient very likely."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA3",
+            "probe_id": "MVP2.RA3.1",
+            "scenario": "During a patrol mission at night, your unit comes under fire, and one soldier is seriously injured. They are unable to walk, so must be carried in a litter. You assess them as \u201cimmediate\u201d, needing medical evaluation quickly. Your commander asks you which medical evacuation option you would recommend.",
+            "state": null,
+            "probe": "What do you pick?",
+            "choices": [
+                "The pre-designated helicopter landing zone, through a forest. This location is 2 miles away and the helicopter would be fastest. You have no direct way to contact the helicopter, so you would pass the evacuation request through your base as an intermediary. You are not familiar with routes through the forest. If the evacuation request is not received, or if you get lost in the forest, the patient will likely die. But this is the fastest option if things go according to plan.",
+                "Go 4 miles across some fields to meet up with a paved road. This is farther away. Once there, vehicle transportation would be slower than the helicopter. You could directly contact your base to dispatch the vehicle and coordinate the meet-up, so you are also certain that transport will be available. This option is slower but more reliable."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA4",
+            "probe_id": "MVP2.RA4.1",
+            "scenario": "Your base needs a delivery of whole blood. You estimate that your current supply is enough for 4 days, maybe a little longer if you start rationing. There are two possible courier companies with different schedules.",
+            "state": null,
+            "probe": "Which would you recommend?",
+            "choices": [
+                "The company equally likely to deliver in 3 days or in 11 days.",
+                "The company guaranteed to deliver the full amount in 7 days."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA5",
+            "probe_id": "MVP2.RA5.1",
+            "scenario": "You are treating a patient at a secure field hospital. She has a serious shrapnel injury that will require a complicated surgery that you have not performed before. You are confident that you would succeed, but there is a low risk of seriously aggravating the injury. Alternatively, you could delay treatment and wait until a colleague arrives who has performed the operation before. This will mean that the patient\u2019s condition will worsen, but she will be better off than if you performed the operation incorrectly.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Perform the operation, with a high chance of success but a low chance of serious injury to the patient.",
+                "Wait for your colleague, with a high likelihood that the patient will worsen, but with a lower chance of serious injury from the surgery."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA6",
+            "probe_id": "MVP2.RA6.1",
+            "scenario": "You are treating a casualty at a local medical center with limited resources. The patient is currently stable, but would benefit from resources that you lack for further treatment. You could transfer the patient to a larger, regional medical center with the requisite resources, but worry that there is a small possibility that her injuries might be aggravated in transport.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transfer your patient now to the larger, better equipped center, with a high probability of a faster recovery, but a small probability that her injuries will worsen in transport.",
+                "Hold and treat your patient as best you can at the local center, likely resulting in a slower recovery."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA7",
+            "probe_id": "MVP2.RA7.1",
+            "scenario": "You are treating an unconscious patient with severe sepsis, at a remote location with limited resources. Ordinarily, you would use an antibiotic to combat the infection. However, the limited data you have on the patient\u2019s medical history suggests that he may be allergic to the only antibiotic drug available in sufficient quantity.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Administer the antibiotic, which is likely to help substantially with the sepsis but risks an allergic reaction.",
+                "Avoid use of the antibiotic drug, making it more difficult to treat the sepsis."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.RA8",
+            "probe_id": "MVP2.RA8.1",
+            "scenario": "You are a medic deployed in a submarine. You are called to respond to a chemical explosion in the area where equipment maintenance supplies are stored. When you get there, an emergency door is closed, sealing off the compartment where the explosion occurred. A maintenance specialist tells you that he came out of the compartment before the door automatically shut, to get help for his colleague, who was seriously burned on the face and neck. You know that there is a risk of toxic fumes from whatever chemical exploded, or from damage to nearby containers. The maintenance specialist tells you that nothing else was damaged or leaking, and that the solvent that exploded isn\u2019t toxic.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Get a gas mask, close the door leading into this area, and then open the emergency door and enter the compartment. This will allow you to treat the injured submariner sooner, but risks at least a local release of toxic fumes.",
+                "Wait for the chemical/biological/radiation response team to come and install a mobile airlock entrance before entering the compartment with a gas mask. This will delay treatment for the injured submariner but reduce the risk of toxic fume release."
+            ]
+        },
+        [
+            {
+                "risk_aversion": 0.0
+            },
+            {
+                "risk_aversion": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.UT1",
+            "probe_id": "MVP2.UT1.1",
+            "scenario": "In a secure tactical field care environment, 6 injured soldiers arrive to your Casualty Collection Point (CCP) for treatment. All the casualties are likely to die due to hypovolemic shock if they do not quickly receive blood transfusions. Only O+ blood is available, and all soldiers are of blood type O+. Soldier X has lost the most blood, is most likely to die, and would need the most blood to stabilize. Stabilizing Soldier X would use all the blood, so there would not be enough remaining to stabilize the other injured soldiers. Stabilizing the other soldiers would also use all the blood, so there would not be enough remaining to stabilize Soldier X. Any soldier whose condition is not stabilized now is likely to die.",
+            "state": null,
+            "probe": "What do you plan to do?",
+            "choices": [
+                "Give Soldier X a transfusion, stabilizing him but leaving no blood to treat the others.",
+                "Give the other soldiers transfusions, stabilizing them but leaving no blood to treat Soldier X."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.UT1",
+            "probe_id": "MVP2.UT1.2",
+            "scenario": "In a secure tactical field care environment, 6 injured soldiers arrive to your Casualty Collection Point (CCP) for treatment. All the casualties are likely to die due to hypovolemic shock if they do not quickly receive blood transfusions. Only O+ blood is available, and all soldiers are of blood type O+. Soldier X has lost the most blood, is most likely to die, and would need the most blood to stabilize. Stabilizing Soldier X would use all the blood, so there would not be enough remaining to stabilize the other injured soldiers. Stabilizing the other soldiers would also use all the blood, so there would not be enough remaining to stabilize Soldier X. Any soldier whose condition is not stabilized now is likely to die.",
+            "state": null,
+            "probe": "When you assess all the soldiers further, you estimate that Soldier X would need 6 units of blood, Soldier Y would need 2 units of blood, and the other four soldiers would need 1 unit each. You have 6 units of blood. Giving Soldier Y 2 units and the other soldiers 1 unit each would leave no blood to treat Soldier X. Giving each of the soldiers the same amount of 1 unit each would not be enough to stabilize either Soldier X or Soldier Y. Any soldier whose condition is not stabilized now is likely to die. What do you do?",
+            "choices": [
+                "Do not treat Soldier X, give Soldier Y 2 units, and give the other soldiers 1 units each.",
+                "Give each soldier 1 unit of blood."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.UT2",
+            "probe_id": "MVP2.UT2.1",
+            "scenario": "You are treating casualties at a Forward Medical Support Station as part of a continuing operation against an insurgent group nearby. Two patients arrive: a sniper whose particular skill will be critical to mission success, and an inexperienced soldier who does not have a special mission-critical skill. The sniper is not badly injured, but will need limited medical resources for a quick recovery and to return to duty. The inexperienced soldier is seriously wounded, and requires the same limited medical resources as the sniper. Treating the sniper will return him to duty quickly and make mission success much more likely, but the inexperienced soldier would probably die. Treating the inexperienced soldier would probably save his life, but the sniper would not be able to return to duty in time for the mission. You cannot treat both successfully.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the sniper.",
+                "Treat the inexperienced soldier."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "MVP2.UT3",
+            "probe_id": "MVP2.UT3.1",
+            "scenario": "In a remote field care environment, you are treating a local translator who has been crucial to the success of several operations. He had been assured by your unit that injury was unlikely in the villages where he would be working as a translator, and that he would receive excellent medical care in the event of any injury. When he was unexpectedly injured in an IED attack, you promised his brother that you would take care of him. Now three additional casualties arrive with critical wounds. The new casualties\u2019 injuries are very serious but quick and easy to stabilize, whereas the translator\u2019s injuries will require more time and resources to treat. You cannot save both the translator and the new arrivals. If you treat the translator, the three new arrivals will probably die. If you switch from treating the translator in order to treat the new arrivals, you would violate your promise to his brother and the translator would probably die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue to treat the translator.",
+                "Switch to treat the three new arrivals."
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-1",
+            "scenario": "You are triaging patients after a shooting at a university. You see one unconscious patient with severe hemorrhage, and recognize that he is the student responsible for the attack at the university. You see a second patient, a victim of the attack, with multiple gunshot wounds that may not be survivable.  You do not have time to treat both the shooter and the victim, and both are likely to die without treatment. The shooter\u2019s injuries are definitely treatable, but the victim may die even if treated, so there is a higher likelihood that you can save the shooter\u2019s life than the victim\u2019s.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the victim",
+                "Treat the shooter"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-1",
+            "scenario": "You are triaging patients after a shooting at a university. You see one unconscious patient with severe hemorrhage, and recognize that he is the student responsible for the attack at the university. You see a second patient, a victim of the attack, with multiple gunshot wounds that may not be survivable.  You do not have time to treat both the shooter and the victim, and both are likely to die without treatment. The shooter\u2019s injuries are definitely treatable, but the victim may die even if treated, so there is a higher likelihood that you can save the shooter\u2019s life than the victim\u2019s.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the victim",
+                "Treat the shooter"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-2",
+            "scenario": "You are working in an emergency department in a small town with limited resources. You have one available room when 2 patients arrive. Both were in a busy parking lot when one of them snatched a purse from an older woman. The second ran after the thief to try to recover the purse, and as they struggled, they fell into the path of an oncoming car. The thief took more of the impact and has a collapsed lung and potential internal bleeding.  The person who tried to recover the purse has a broken collarbone and fractured wrist, as well as signs of a concussion.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the person who tried to recover the purse first",
+                "Treat the thief first"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-2",
+            "scenario": "You are working in an emergency department in a small town with limited resources. You have one available room when 2 patients arrive. Both were in a busy parking lot when one of them snatched a purse from an older woman. The second ran after the thief to try to recover the purse, and as they struggled, they fell into the path of an oncoming car. The thief took more of the impact and has a collapsed lung and potential internal bleeding.  The person who tried to recover the purse has a broken collarbone and fractured wrist, as well as signs of a concussion.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the person who tried to recover the purse first",
+                "Treat the thief first"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-3",
+            "scenario": "You are an emergency responder to a serious fire at an apartment building. Among the injured are two men who are heavily intoxicated. You learn that the fire was likely caused by cigarettes they discarded carelessly in their apartment. They have smoke inhalation injuries which could be fatal if untreated, but if they receive a simple treatment promptly they are likely to survive. Also among the injured is a woman from the apartment next to where the fire began. She has severe burns over most of her body, as well as smoke inhalation injuries, and will require more complex immediate treatment to have even a small chance of recovery. Providing the more complex treatment for her would mean ignoring the others\u2019 injuries, making it more likely that they will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the woman",
+                "Treat the two men"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-3",
+            "scenario": "You are an emergency responder to a serious fire at an apartment building. Among the injured are two men who are heavily intoxicated. You learn that the fire was likely caused by cigarettes they discarded carelessly in their apartment. They have smoke inhalation injuries which could be fatal if untreated, but if they receive a simple treatment promptly they are likely to survive. Also among the injured is a woman from the apartment next to where the fire began. She has severe burns over most of her body, as well as smoke inhalation injuries, and will require more complex immediate treatment to have even a small chance of recovery. Providing the more complex treatment for her would mean ignoring the others\u2019 injuries, making it more likely that they will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the woman",
+                "Treat the two men"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-4",
+            "scenario": "You are called to the scene after a massive accident where a train has derailed due to someone setting off a bomb. A commuter who was on their way to work probably has a concussion and will need to be fully examined in a hospital to make sure that there is no associated bleeding in the brain that could be a problem if not detected. The bomber stayed to watch what happened, and was seriously injured. You estimate that the bomber has internal injuries that require immediate surgery to stop internal bleeding that could lead to death within the hour.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the commuter",
+                "Transport the bomber"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-4",
+            "scenario": "You are called to the scene after a massive accident where a train has derailed due to someone setting off a bomb. A commuter who was on their way to work probably has a concussion and will need to be fully examined in a hospital to make sure that there is no associated bleeding in the brain that could be a problem if not detected. The bomber stayed to watch what happened, and was seriously injured. You estimate that the bomber has internal injuries that require immediate surgery to stop internal bleeding that could lead to death within the hour.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the commuter",
+                "Transport the bomber"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-5",
+            "scenario": "You are the medical provider for an outdoor adventure tour group during a wilderness trip. Two participants get into an argument about who lost a piece of equipment and one suddenly starts throwing punches, at the edge of a cliff. Another participant sees the danger and steps in to try to calm things down. During the tussle, both the attacker and the group member who intervened fall over the edge. A rescue helicopter can take one person out, but the other will need to be transported by other members of the group via stretcher, which will take substantially longer. The person who started the fight has a compound fracture with bleeding that will be difficult to control during a stretcher evacuation, and may die before arriving at a point where an ambulance could meet the group. The person who tried to prevent the fall landed on the person who started the fight and is less seriously injured, but may have internal injuries that aren\u2019t apparent.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Send the person who tried to prevent the fall in the helicopter",
+                "Send the person who started the fight in the helicopter"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-5",
+            "scenario": "You are the medical provider for an outdoor adventure tour group during a wilderness trip. Two participants get into an argument about who lost a piece of equipment and one suddenly starts throwing punches, at the edge of a cliff. Another participant sees the danger and steps in to try to calm things down. During the tussle, both the attacker and the group member who intervened fall over the edge. A rescue helicopter can take one person out, but the other will need to be transported by other members of the group via stretcher, which will take substantially longer. The person who started the fight has a compound fracture with bleeding that will be difficult to control during a stretcher evacuation, and may die before arriving at a point where an ambulance could meet the group. The person who tried to prevent the fall landed on the person who started the fight and is less seriously injured, but may have internal injuries that aren\u2019t apparent.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Send the person who tried to prevent the fall in the helicopter",
+                "Send the person who started the fight in the helicopter"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-6",
+            "scenario": "Your ambulance responds to a call and when you get there, you see three unconscious people. They have been dragged into the yard by police. The police tell you that two roommates in the lower apartment had brought an outdoor grill into the house to barbeque. Their upstairs neighbor was found in her bedroom, where she had been asleep. All three show signs of carbon monoxide poisoning, which can be fatal if not treated quickly. The upstairs neighbor also has a pre-existing condition that makes her treatment more complex, requiring a procedure that you cannot perform without the assistance of your partner. Alternatively, the two of you can each treat one of the roommates, saving their lives but delaying treatment to the neighbor.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the neighbor first",
+                "Treat both of the roommates first"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 10.0
+            },
+            {
+                "moral_deservingness": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "moral_deservingness-vs-lives_saved",
+            "probe_id": "mdls-6",
+            "scenario": "Your ambulance responds to a call and when you get there, you see three unconscious people. They have been dragged into the yard by police. The police tell you that two roommates in the lower apartment had brought an outdoor grill into the house to barbeque. Their upstairs neighbor was found in her bedroom, where she had been asleep. All three show signs of carbon monoxide poisoning, which can be fatal if not treated quickly. The upstairs neighbor also has a pre-existing condition that makes her treatment more complex, requiring a procedure that you cannot perform without the assistance of your partner. Alternatively, the two of you can each treat one of the roommates, saving their lives but delaying treatment to the neighbor.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the neighbor first",
+                "Treat both of the roommates first"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 0.0
+            },
+            {
+                "utilitarianism": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-1",
+            "scenario": "You are the only EMT in a rural community. You arrive on the scene of a shooting at a small convenience store. You begin assessing a person lying on the sidewalk outside, and determine that they need to be transported to the hospital in the nearest town.  As you are loading them into the ambulance, your partner tells you that there\u2019s another patient inside the store who is in equally serious condition. Your partner also says that the police told them that the patient you have loaded is an armed robber, who shot the clerk inside the store. Your ambulance can accommodate only one patient.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the robber",
+                "Unload the robber and transport the clerk"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-1",
+            "scenario": "You are the only EMT in a rural community. You arrive on the scene of a shooting at a small convenience store. You begin assessing a person lying on the sidewalk outside, and determine that they need to be transported to the hospital in the nearest town.  As you are loading them into the ambulance, your partner tells you that there\u2019s another patient inside the store who is in equally serious condition. Your partner also says that the police told them that the patient you have loaded is an armed robber, who shot the clerk inside the store. Your ambulance can accommodate only one patient.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the robber",
+                "Unload the robber and transport the clerk"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-2",
+            "scenario": "You are the only plastic surgeon at your hospital. You have a long-term patient whom you have been treating for two months, since they were seriously burned while destroying evidence that they had stolen money from work. The next step in treatment is a graft with artificial skin, and this lengthy procedure is scheduled for today. As you prepare to go into the procedure room with this patient, your front desk stops you to ask if you can take an urgent case from the ER. A teacher was cut on the face while preventing a child from having an accident, and although the wound has been bandaged, they need stitches in order to prevent scarring.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat your long-term patient first",
+                "Treat the new patient immediately"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-2",
+            "scenario": "You are the only plastic surgeon at your hospital. You have a long-term patient whom you have been treating for two months, since they were seriously burned while destroying evidence that they had stolen money from work. The next step in treatment is a graft with artificial skin, and this lengthy procedure is scheduled for today. As you prepare to go into the procedure room with this patient, your front desk stops you to ask if you can take an urgent case from the ER. A teacher was cut on the face while preventing a child from having an accident, and although the wound has been bandaged, they need stitches in order to prevent scarring.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat your long-term patient first",
+                "Treat the new patient immediately"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-3",
+            "scenario": "You are working in a hospital emergency department, treating a patient severely injured in a crash after he lost control of his car while trying to race another driver. As you begin treating this patient, a passenger from a vehicle the driver hit is brought in, also suffering from severe injuries. You do not believe you have the time and resources to treat both patients, given the nature of their injuries, so it is likely that whichever patient you do not treat will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the driver",
+                "Start treating the passenger"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-3",
+            "scenario": "You are working in a hospital emergency department, treating a patient severely injured in a crash after he lost control of his car while trying to race another driver. As you begin treating this patient, a passenger from a vehicle the driver hit is brought in, also suffering from severe injuries. You do not believe you have the time and resources to treat both patients, given the nature of their injuries, so it is likely that whichever patient you do not treat will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the driver",
+                "Start treating the passenger"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-4",
+            "scenario": "You arrive on the scene of a car accident where a drunk driver hit a tree. Firefighters have removed the driver from the car. As you begin loading the driver into the ambulance, a damaged limb from the tree falls onto the mechanic who was helping prepare the car to be towed away. Both patients have life threatening injuries, but the ambulance can only take one.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the driver",
+                "Unload the driver and transport the mechanic"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-4",
+            "scenario": "You arrive on the scene of a car accident where a drunk driver hit a tree. Firefighters have removed the driver from the car. As you begin loading the driver into the ambulance, a damaged limb from the tree falls onto the mechanic who was helping prepare the car to be towed away. Both patients have life threatening injuries, but the ambulance can only take one.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Transport the driver",
+                "Unload the driver and transport the mechanic"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-5",
+            "scenario": "You are working in a hospital emergency department, treating a patient severely injured in a car crash. As you begin treating this patient, another patient is brought into the emergency department, with severe injuries due to having been hit by a car. You learn that the patient was cycling in a bike lane and was struck by a driver who was texting. The driver swerved into on-coming traffic after hitting the cyclist. You realize that the patient you have been treating is the driver who hit the cyclist. You do not believe you have the time and resources to treat both patients, given the nature of their injuries, so it is likely that whichever patient you do not treat will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the driver",
+                "Start treating the cyclist"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-5",
+            "scenario": "You are working in a hospital emergency department, treating a patient severely injured in a car crash. As you begin treating this patient, another patient is brought into the emergency department, with severe injuries due to having been hit by a car. You learn that the patient was cycling in a bike lane and was struck by a driver who was texting. The driver swerved into on-coming traffic after hitting the cyclist. You realize that the patient you have been treating is the driver who hit the cyclist. You do not believe you have the time and resources to treat both patients, given the nature of their injuries, so it is likely that whichever patient you do not treat will die.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the driver",
+                "Start treating the cyclist"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-6",
+            "scenario": "You arrive at a local office park after police have secured the scene of a shooting.  You begin treating a gunshot victim in the reception area. As you prepare to load him into your ambulance, you learn from the police who secured the scene that your patient was a disgruntled ex-employee who shot his former manager before being shot by the office park\u2019s security staff as he attempted to flee. The manager is still inside the building. Both patients are unconscious and bleeding severely.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the shooter",
+                "Go treat the manager"
+            ]
+        },
+        [
+            {
+                "moral_deservingness": 0.0
+            },
+            {
+                "moral_deservingness": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "continuation_of_care-vs-moral_deservingness",
+            "probe_id": "ccmd-6",
+            "scenario": "You arrive at a local office park after police have secured the scene of a shooting.  You begin treating a gunshot victim in the reception area. As you prepare to load him into your ambulance, you learn from the police who secured the scene that your patient was a disgruntled ex-employee who shot his former manager before being shot by the office park\u2019s security staff as he attempted to flee. The manager is still inside the building. Both patients are unconscious and bleeding severely.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Continue treating the shooter",
+                "Go treat the manager"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 10.0
+            },
+            {
+                "continuation_of_care": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-1",
+            "scenario": "You are staffing a first aid tent at a local concert. A sudden storm produces strong winds that damage the stage and send metal and glass debris flying. You have only 5 packages of hemostatic gauze to stop severe bleeding. The first patient that arrives has several serious injuries, and you estimate that you will need all 5 packages because of the multiple locations of their injuries. You have stopped bleeding in one area when 4 other casualties arrive. Each has one seriously injured area that requires bandaging to stop bleeding. Because the storm damaged trees along the road, ambulances will not be able to reach the venue in the near future.  If you continue to treat the first more seriously injured patient, you will use all 4 remaining packages to save his life, but the other patients would die before ambulances arrive. If you stop treating the current patient, allowing him to die, you could save the other 4 injured casualties with the 4 remaining packages.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Use the 4 packages to treat the other 4 patients",
+                "Use the 4 packages to treat the more seriously injured patient"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-1",
+            "scenario": "You are staffing a first aid tent at a local concert. A sudden storm produces strong winds that damage the stage and send metal and glass debris flying. You have only 5 packages of hemostatic gauze to stop severe bleeding. The first patient that arrives has several serious injuries, and you estimate that you will need all 5 packages because of the multiple locations of their injuries. You have stopped bleeding in one area when 4 other casualties arrive. Each has one seriously injured area that requires bandaging to stop bleeding. Because the storm damaged trees along the road, ambulances will not be able to reach the venue in the near future.  If you continue to treat the first more seriously injured patient, you will use all 4 remaining packages to save his life, but the other patients would die before ambulances arrive. If you stop treating the current patient, allowing him to die, you could save the other 4 injured casualties with the 4 remaining packages.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Use the 4 packages to treat the other 4 patients",
+                "Use the 4 packages to treat the more seriously injured patient"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-2",
+            "scenario": "Because of staffing shortages, your hospital can conduct only one surgery at a time, even though you have several ORs available. A patient with a chronic, potentially fatal condition is scheduled for a complicated surgery today that should take about 3 hours. The surgery has been delayed many times in the past because of staff shortages. Although the patient is stable today, they are showing early signs and symptoms of liver failure, and they will not survive without the surgery for much longer. The patient has been taken to the OR and anesthetized when ambulances arrive with 3 patients, all of whom have life threatening injuries that need surgery to survive. You believe that all 3 patients could be operated on in the next 90 minutes and would survive; however, they would likely die if they have to wait more than 2 hours for surgery.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the 3 incoming patients immediately",
+                "Continue the surgery of the patient who is waiting in the OR"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-2",
+            "scenario": "Because of staffing shortages, your hospital can conduct only one surgery at a time, even though you have several ORs available. A patient with a chronic, potentially fatal condition is scheduled for a complicated surgery today that should take about 3 hours. The surgery has been delayed many times in the past because of staff shortages. Although the patient is stable today, they are showing early signs and symptoms of liver failure, and they will not survive without the surgery for much longer. The patient has been taken to the OR and anesthetized when ambulances arrive with 3 patients, all of whom have life threatening injuries that need surgery to survive. You believe that all 3 patients could be operated on in the next 90 minutes and would survive; however, they would likely die if they have to wait more than 2 hours for surgery.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the 3 incoming patients immediately",
+                "Continue the surgery of the patient who is waiting in the OR"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-3",
+            "scenario": "You are working at a rural clinic and pharmacy. You have a patient you have been treating for a life threatening infection. Their infection was completely resistant to first line antibiotics, and has only responded somewhat to the second line antibiotics. You planned to start treatment with a reserve antibiotic today. Due to a widespread shortage of this reserve antibiotic, your clinic has only one dose left. You get a phone call from a rural clinic an hour away. They have a patient with a life threatening infection who has not responded at all to first or second line antibiotics, and will probably die without treatment with a reserve antibiotic. Due to the shortage, they have no doses of reserve antibiotic, and they have called every place within 200 miles already. If you give them the dose you were planning to use on your patient, they would need to continue treatment with the second line antibiotic which may not be enough.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Give the other clinic the dose",
+                "Use the dose to treat your patient"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-3",
+            "scenario": "You are working at a rural clinic and pharmacy. You have a patient you have been treating for a life threatening infection. Their infection was completely resistant to first line antibiotics, and has only responded somewhat to the second line antibiotics. You planned to start treatment with a reserve antibiotic today. Due to a widespread shortage of this reserve antibiotic, your clinic has only one dose left. You get a phone call from a rural clinic an hour away. They have a patient with a life threatening infection who has not responded at all to first or second line antibiotics, and will probably die without treatment with a reserve antibiotic. Due to the shortage, they have no doses of reserve antibiotic, and they have called every place within 200 miles already. If you give them the dose you were planning to use on your patient, they would need to continue treatment with the second line antibiotic which may not be enough.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Give the other clinic the dose",
+                "Use the dose to treat your patient"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-4",
+            "scenario": "You are working in an emergency department, treating a patient with multiple gunshot wounds. You stop the patient\u2019s external bleeding, but you are worried about internal bleeding that requires surgical intervention. While you are deciding how to proceed, 4 new patients arrive. Each has a single, potentially fatal gunshot or stab wound, but the injuries are relatively uncomplicated, so that you are confident that you can stabilize them fairly quickly. Continuing to treat the first patient, with more complex injuries, would distract you from the care needed by the new arrivals, increasing the likelihood that one or more of the new arrivals will die before you manage to stabilize them. Delaying care of the original, complex patient would allow you to stabilize all the new arrivals, but would likely result in his death.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the new arrivals",
+                "Continue care for the original patient"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-4",
+            "scenario": "You are working in an emergency department, treating a patient with multiple gunshot wounds. You stop the patient\u2019s external bleeding, but you are worried about internal bleeding that requires surgical intervention. While you are deciding how to proceed, 4 new patients arrive. Each has a single, potentially fatal gunshot or stab wound, but the injuries are relatively uncomplicated, so that you are confident that you can stabilize them fairly quickly. Continuing to treat the first patient, with more complex injuries, would distract you from the care needed by the new arrivals, increasing the likelihood that one or more of the new arrivals will die before you manage to stabilize them. Delaying care of the original, complex patient would allow you to stabilize all the new arrivals, but would likely result in his death.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Treat the new arrivals",
+                "Continue care for the original patient"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-5",
+            "scenario": "You are working as the only medical provider in a remote area where serious medical cases have to be evacuated by boat to the mainland many hours away. You called the medical transport service for one seriously injured patient, who needs to go to a major surgical hospital. Although they are stable, the longer they wait for surgery, the lower their chances for a full recovery and the higher their chances are for a permanent disability. As you are ready to load the patient, a search and rescue team calls to say that they are about an hour away with a patient with critical injuries who also needs to be transported. Because of the tides, the boat can either leave right now or will have to wait up to 8 hours until the tide begins to come in again. If they leave now, the distance and tides mean that the boat will not be able to return for 18 hours, which is likely too late to save the second patient.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Ask them to wait for the second patient",
+                "Tell them to leave now with the first patient"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-5",
+            "scenario": "You are working as the only medical provider in a remote area where serious medical cases have to be evacuated by boat to the mainland many hours away. You called the medical transport service for one seriously injured patient, who needs to go to a major surgical hospital. Although they are stable, the longer they wait for surgery, the lower their chances for a full recovery and the higher their chances are for a permanent disability. As you are ready to load the patient, a search and rescue team calls to say that they are about an hour away with a patient with critical injuries who also needs to be transported. Because of the tides, the boat can either leave right now or will have to wait up to 8 hours until the tide begins to come in again. If they leave now, the distance and tides mean that the boat will not be able to return for 18 hours, which is likely too late to save the second patient.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Ask them to wait for the second patient",
+                "Tell them to leave now with the first patient"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-6",
+            "scenario": "You are the only available provider in a small rural hospital when an ambulance arrives with a patient who was in a serious car accident. The patient has severe injuries and will require your full attention in order to stabilize their condition. Even if stabilized, the injuries the patient has received indicate it will be unlikely that the patient will make a full recovery and return to the condition they were in before the accident. You are prepping the patient for surgery when a second ambulance arrives with three patients from another accident. While their injuries are equally life threatening, it appears that it will take less time to stabilize them and thus they could all be stabilized in the time it would take to stabilize your current patient. It is also more likely that if stabilized quickly they will make a full recovery.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Switch to working on the new patients",
+                "Continue to work on your current patient"
+            ]
+        },
+        [
+            {
+                "continuation_of_care": 0.0
+            },
+            {
+                "continuation_of_care": 10.0
+            }
+        ]
+    ],
+    [
+        {
+            "scenario_id": "lives_saved-vs-continuation_of_care",
+            "probe_id": "lscc-6",
+            "scenario": "You are the only available provider in a small rural hospital when an ambulance arrives with a patient who was in a serious car accident. The patient has severe injuries and will require your full attention in order to stabilize their condition. Even if stabilized, the injuries the patient has received indicate it will be unlikely that the patient will make a full recovery and return to the condition they were in before the accident. You are prepping the patient for surgery when a second ambulance arrives with three patients from another accident. While their injuries are equally life threatening, it appears that it will take less time to stabilize them and thus they could all be stabilized in the time it would take to stabilize your current patient. It is also more likely that if stabilized quickly they will make a full recovery.",
+            "state": null,
+            "probe": "What do you do?",
+            "choices": [
+                "Switch to working on the new patients",
+                "Continue to work on your current patient"
+            ]
+        },
+        [
+            {
+                "utilitarianism": 10.0
+            },
+            {
+                "utilitarianism": 0.0
+            }
+        ]
+    ]
+]
