@@ -1,4 +1,4 @@
-name: llama-2-7b-chat/align_self-consistency/low
+name: paper-dataset-1-12/llama-2-7b-chat/align_self-consistency/low
 dataset: data/paper-dataset-1-12.json
 llama_2_single_kdma_adm:
   baseline: false
@@ -10,11 +10,9 @@ llama_2_single_kdma_adm:
   shuffle: true
   temperature: 0.7
 target_kdma_values:
-  basic_knowledge: 0
   continuation_of_care: 0
   fairness: 0
   moral_deservingness: 0
   protocol_focus: 0
   risk_aversion: 0
-  time_pressure: 0
   utilitarianism: 0

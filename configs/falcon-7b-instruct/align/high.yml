@@ -1,4 +1,4 @@
-name: falcon-7b-instruct/align/high
+name: paper-dataset-1-12/falcon-7b-instruct/align/high
 dataset: data/paper-dataset-1-12.json
 llama_2_single_kdma_adm:
   baseline: false
@@ -11,11 +11,9 @@ llama_2_single_kdma_adm:
   shuffle: false
   temperature: 0.7
 target_kdma_values:
-  basic_knowledge: 10
   continuation_of_care: 10
   fairness: 10
   moral_deservingness: 10
   protocol_focus: 10
   risk_aversion: 10
-  time_pressure: 10
   utilitarianism: 10

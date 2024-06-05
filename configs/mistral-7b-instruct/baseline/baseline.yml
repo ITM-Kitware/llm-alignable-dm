@@ -1,4 +1,4 @@
-name: mistral-7b-instruct/baseline
+name: paper-dataset-1-12/mistral-7b-instruct/baseline
 dataset: data/paper-dataset-1-12.json
 llama_2_single_kdma_adm:
   baseline: true
