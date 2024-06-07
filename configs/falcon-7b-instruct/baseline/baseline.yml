@@ -1,0 +1,13 @@
+name: paper-dataset-1-12/falcon-7b-instruct/baseline
+dataset: data/paper-dataset-1-12.json
+llama_2_single_kdma_adm:
+  baseline: true
+  chat_template: falcon-instruct.jinja
+  device: cuda:0
+  hf_model: tiiuae/falcon-7b-instruct
+  n_negative_samples: 0
+  n_positive_samples: 1
+  precision: half
+  shuffle: false
+  temperature: 0.7
+target_kdma_values: null
