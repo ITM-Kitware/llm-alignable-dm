@@ -91,4 +91,6 @@ If you find this work useful, please consider citing our paper:
 ```
 
 ## Disclaimer
+We emphasize that our work should be considered academic research, as we cannot fully guarantee model outputs are free of inaccuracies or biases that may pose risks if relied upon for medical decision-making. Please consult a qualified healthcare professional for personal medical needs.
+
 This research was developed with funding from the Defense Advanced Research Projects Agency (DARPA) under Contract Nos. FA8650-23-C-7314 and FA8650-23-C-7316. The views, opinions and/or findings expressed are those of the author and should not be interpreted as representing the official views or policies of the Department of Defense or the U.S. Government.
