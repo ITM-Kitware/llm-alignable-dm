@@ -3,6 +3,8 @@
 
 This is the Github repo corresponding to our [NAACL '24 Industry Track Paper](https://2024.naacl.org/program/accepted_papers_industry/), "Language Models are Alignable Decision-Makers: Dataset and Application to the Medical Triage Domain."
 
+**Paper**: https://arxiv.org/abs/2406.06435
+
 ## Setup
 This repository is based off of the ALIGN system [codebase](https://github.com/ITM-Kitware/align-system). Instructions for how to set up your system can be found there (install using either `pip` or `poetry`). It is generally recommended to use a virtual Python environment to manage dependencies. 
 
