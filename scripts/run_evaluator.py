@@ -134,6 +134,14 @@ def kaleido_adm(config):
     return algorithm, config
 
 
+def codeact_agent_adm(config):
+    from align_system.algorithms.codeact_agent_adm import CodeActAgentADM
+
+    algorithm = CodeActAgentADM(**config)
+    algorithm.load_model()
+    return algorithm, config
+
+
 def dummy_adm(config):
     return DummyADM(**config), config
 
@@ -162,6 +170,7 @@ def multi_comparison_adm(config):
 
 
 eval_fns = [
+    codeact_agent_adm,
     chat_kdma_predicting_adm,
     llama_2_single_kdma_adm,
     llama_2_single_kdma_adm_with_rag,
@@ -184,9 +193,13 @@ def main(config_file, cuda_idx=None):
     with open(config_file, 'r') as f:
         config = yaml.safe_load(f)
 
+    print("<< config >>\n", config)
+
     with open(config['dataset'], 'r') as f:
         dataset = json.load(f)
         dataset = dataset
+
+    print(f"<< dataset >> (Dataset (length): {len(dataset)}\n<sample>\n{dataset[0]})")
 
     if 'cache_dir' in config:
         cache_dir = config['cache_dir']
@@ -204,6 +217,7 @@ def main(config_file, cuda_idx=None):
         experiment_name = config['name']
 
         if eval_fn.__name__ in config:
+            print("eval_fn.__name__: ", eval_fn.__name__)
             if cuda_idx is not None:
                 config[eval_fn.__name__]['device'] = f'cuda:{cuda_idx}'
 

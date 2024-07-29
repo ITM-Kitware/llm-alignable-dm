@@ -5,16 +5,45 @@ This is the Github repo corresponding to our [NAACL '24 Industry Track Paper](ht
 
 **Paper**: https://arxiv.org/abs/2406.06435
 
-## Setup
-This repository is based off of the ALIGN system [codebase](https://github.com/ITM-Kitware/align-system). Instructions for how to set up your system can be found there (install using either `pip` or `poetry`). It is generally recommended to use a virtual Python environment to manage dependencies. 
 
-### Things to Note:
-(1) This code requires Python version >=3.10 (virtual/conda env recommended). \
-(2) This repo was tested on a version of the ALIGN system corresponding to this [commit-id](https://github.com/ITM-Kitware/align-system/commit/7b67c76bf11313e31af43af53588fe70803943e7). To use this version, please run the following before running the code:
+## Setup (updated 06/30/2024 to evaluate on CodeAct agent)
+Set up the conda environment (`python<=3.10`) first:
+```bash
+conda create -n align_system python=3.10
+conda activate align_system
+```
 
+After setting up the conda env, install the `align-system` from the forked repo as follows (the forked repo contains `CodeActAgent` class - we will merge later with the official code repo for `align-system`):
+```bash
+git clone https://github.com/wjdghks950/align-system.git
+cd align-system
+pip install -e .
 ```
-pip install -e git+https://github.com/ITM-Kitware/align-system.git@7b67c76bf11313e31af43af53588fe70803943e7#egg=align_system
+
+Other dependencies:
+```bash
+pip install vllm
 ```
+
+Start CodeAct:
+
+```bash
+# start model serving at port 8080
+export CUDA_VISIBLE_DEVICES=0,1
+./scripts/start_vllm.sh /shared/nas2/shared/llms/CodeActAgent-Mistral-7b-v0.1/
+
+# start code exec server at 8081
+./scripts/code_execution/start_jupyter_server.sh 8081
+
+# then play around with interactive demo to make sure everything works
+./scripts/run_codeact_demo.sh
+```
+
+## TODO List
+- [ ] Implement the `__call__` method for [CodeActAgentADM](https://github.com/wjdghks950/align-system/blob/3446b221867c4e35e349dac8e03e2640b5ad1245/align_system/algorithms/codeact_agent_adm.py#L127).
+- [ ] `CodeActAgentADM` is being called by [generate_outputs(...)](https://github.com/wjdghks950/align-system/blob/3446b221867c4e35e349dac8e03e2640b5ad1245/align_system/evaluation/adm_evaluator.py#L3) method in [run_evaluator.py](https://github.com/wjdghks950/llm-alignable-dm/blob/996e9be8c45b58305b4b0f187c7306dde0b667da/scripts/run_evaluator.py#L247).
+- [ ] For the `CodeActAgentADM` configs, refer to [configs/codeact-agent](https://github.com/wjdghks950/llm-alignable-dm/tree/main/configs/codeact-agent).
+
 
 ## Overview
 To run a particular LLM-based decision-maker, use the `run_evaluator.py` file in the `scripts/` directory. This script takes as input a particular config file (found in the `configs/` directory) and a GPU ID:
